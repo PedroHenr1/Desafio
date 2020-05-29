@@ -5,7 +5,7 @@ public class UploadInfo
 	private String file_name;
 	private String date_time;
 	private String status;
-	
+
 	public UploadInfo(String file_name, String date_time, String status)
 	{
 		this.file_name = file_name;

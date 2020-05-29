@@ -74,6 +74,7 @@
 		        </exclusion>
 		    </exclusions>
 		</dependency>
+		
 		<!-- junit 5 -->
 		<dependency>
 		    <groupId>org.junit.jupiter</groupId>

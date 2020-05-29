@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "cf5eee11-6122-4bed-a771-72eb3f4efecf",
+		"name": "Validacao",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/app/arquivo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "tipo",
+							"value": "pdf",
+							"type": "text"
+						},
+						{
+							"key": "arquivo",
+							"type": "file",
+							"src": "/C:/Users/pedro/Documents/Celpe - Companhia Energética de Pernambuco.pdf"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/app/arquivo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"arquivo"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
